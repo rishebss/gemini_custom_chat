@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'paste_your_api_key_here')
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaSyAcr5MCA00fk4QX7QxyZnWml2jyeQ6HToU')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)&@exp^8!4+rfppqeo3o4@rgmw0sgv)th^+wn1-q4(meyjdfh1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
